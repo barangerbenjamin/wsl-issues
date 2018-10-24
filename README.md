@@ -26,7 +26,7 @@ _Case_: My picture appears but Sublime text can't read it:<br/>
 
 ## Hub browse doesn't work
 
-You get the following error when you try<br/>```hub browse```:<br/>
+You get the following error when you try ```hub browse```:<br/>
 ```Please set $BROWSER to a web launcher to use this command```<br/> The erorr is telling you than you need to set the variable ```BROWSER``` to an browser launcher.
 
 You're using Google Chrome:<br/>
