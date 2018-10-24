@@ -41,7 +41,7 @@ From the WSL terminal `chmod +xrw path_of_the_file/file_name.extension`
 ## Hub browse doesn't work
 
 You get the following error when you try ```hub browse```:<br/>
-```Please set $BROWSER to a web launcher to use this command```<br/> The erorr is telling you than you need to set the variable ```BROWSER``` to an browser launcher.
+```Please set $BROWSER to a web launcher to use this command```<br/> The error is telling you than you need to set the variable ```BROWSER``` to an browser launcher.
 
 You're using Google Chrome:<br/>
 ```echo "export BROWSER=/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe" >> ~/.zshrc```
@@ -54,9 +54,8 @@ You're using Mozilla Firefox:<br/>
 
 ## Rails - PG::ConnectionBad
 
-Impossible to ```rails s```<br/>
-Impossible to ```rails db:create``` or ```rails db:drop``` or ```rails db:migrate```<br/>
-The error is the following:<br/>
+You get the following error:<br/>
 ```PG::ConnectionBad could not connect to server: No such file or directory Is the server running locally and accepting connections on Unix domain socket "/var/pgsql_socket/.s.PGSQL.5432"?```<br/>
-The erorr indicate that the ```postgresql``` server is either not running (99% cases) or not accepting any connection<br/>
+Means you can't ```rails s``` or ```rails db:create``` or ```rails db:drop``` or ```rails db:migrate```<br/>
+The error indicates that the ```postgresql``` server is either not running (99% cases) or not accepting any connection.<br/>
 Run in WSL terminal: ```sudo service postgresql start``` to start the server.
