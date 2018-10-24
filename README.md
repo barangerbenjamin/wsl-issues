@@ -29,7 +29,7 @@ _Case_: My picture appears but Sublime text can't read it:
 You get the following error when you try ```hub browse```:
 Please set $BROWSER to a web launcher to use this command. The erorr is telling you than you need to set the variable BROWSER to an browser executable.
 
-You're using Google Chrome:\s\s
+You're using Google Chrome:<br/>
 ```echo "export BROWSER=/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe" >> ~/.zshrc```
 
 You're using Mozilla Firefox:
