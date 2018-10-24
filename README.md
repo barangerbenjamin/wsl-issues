@@ -20,9 +20,9 @@ First step is to restart Sublime Text. The file should appear.
 ### The file appears but can't be oppened
 
 Now the file appears in Sublime text, but Sublime text can't seems to be able to open it. If the file has been created on Windows, the rights on this file will be Windows rights. You need to set the Linux rights on that file aswell. You can do it like this:<br/>
-```sudo chmod +xr <file_name.extension>```<br/>
+```sudo chmod +xrw <file_name.extension>```<br/>
 _Case_: My picture appears but Sublime text can't read it:<br/>
-```sudo chmod +xr my_picture.png```
+```sudo chmod +xrw my_picture.png```
 
 ## Hub browse doesn't work
 
