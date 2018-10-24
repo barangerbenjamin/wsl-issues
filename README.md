@@ -2,7 +2,7 @@
 
 Small wiki about known issues on WSL and how to fix them.
 
-## Access Windows file from the wsl terminal
+## Access Windows files from the wsl terminal
 
 It is possible to access Windows files from the terminal.
 All Windows files are located on<br/>```/mnt/#{letter_of_the_drive}```<br/>
@@ -30,8 +30,8 @@ It is possible to access WSL files from Windows. All WSL files are located on<br
 ```C:\Users\your-windows-username\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_...\LocalState\rootfs\home\your-ubuntu-username\code\your-github-username```<br/>
 _Case_: I want to open a Windows File explorer to my WSL files, the path will be:
 ```C:\Users\benjamin\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_...\LocalState\rootfs\home\bbaranger\code\barangerbenjamin```<br/>
-Where ```benjamin``` is my Windows username.
-Where ```bbaranger``` is my WSL username.
+Where ```benjamin``` is my Windows username.<br/>
+Where ```bbaranger``` is my WSL username.<br/>
 Where ```barangerbenjamin``` is my github username.
 
 :warning: Also, using drag and drop from windows will not set the right on the file for WSL, meaning you'll have to do it manually<br/>
