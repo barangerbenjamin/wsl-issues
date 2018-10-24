@@ -2,7 +2,7 @@
 
 Small wiki about known issues on WSL and how to fix them.
 
-## Access Windows files from the WSL terminal
+## Access Windows files frogm the WSL terminal
 
 It is possible to access Windows files from the terminal.
 All Windows files are located on<br/>```/mnt/#{letter_of_the_drive}```<br/>
@@ -36,7 +36,8 @@ Where ```barangerbenjamin``` is my github username.
 
 :warning: Also, using drag and drop from windows will not set the right on the file for WSL, meaning you'll have to do it manually<br/>
 You can do it like so when you have drag and drop your file:
-From the WSL terminal `chmod +xrw path_of_the_file/file_name.extension`
+From the WSL terminal<br/>
+```chmod +xrw path_of_the_file/file_name.extension```
 
 ## Hub browse doesn't work
 
