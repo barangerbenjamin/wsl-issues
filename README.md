@@ -49,5 +49,5 @@ You're using Google Chrome:<br/>
 You're using Mozilla Firefox:<br/>
 ```echo "export BROWSER=/mnt/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe" >> ~/.zshrc```
 
-:warning:_IMPORTANT_: Restart your terminal.<br/>
+:warning:_IMPORTANT_::warning: Restart your terminal.<br/>
 ```hub browse``` should now work with the browser of your choice!
