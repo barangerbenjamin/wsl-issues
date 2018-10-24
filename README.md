@@ -58,5 +58,5 @@ Impossible to ```rails s```<br/>
 Impossible to ```rails db:create``` or ```rails db:drop``` or ```rails db:migrate```<br/>
 The error is the following:<br/>
 ```PG::ConnectionBad could not connect to server: No such file or directory Is the server running locally and accepting connections on Unix domain socket "/var/pgsql_socket/.s.PGSQL.5432"?```<br/>
-The erorr indicate that the ```postgresql``` server is either not running(99% cases) or not accepting any connection<br/>
+The erorr indicate that the ```postgresql``` server is either not running (99% cases) or not accepting any connection<br/>
 Run in WSL terminal: ```sudo service postgresql start``` to start the server.
