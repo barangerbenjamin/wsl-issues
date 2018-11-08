@@ -85,6 +85,6 @@ Move the download custom stylesheets in the our new folder:<br/>
 
 Check if everything is correct:<br/>
 ```ls app/assets/stylesheets```<br/>
-It should contain 4 folders `components`, `config`, `layouts` and `pages`
+It should contain 4 folders `components`, `config`, `layouts` and `pages`<br/>
 And 1 file `application.scss`
 
