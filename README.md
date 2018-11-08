@@ -60,3 +60,31 @@ You get the following error:<br/>
 Means you can't ```rails s``` or ```rails db:create``` or ```rails db:drop``` or ```rails db:migrate```<br/>
 The error indicates that the ```postgresql``` server is either not running (99% cases) or not accepting any connection.<br/>
 Run the following command in WSL terminal: ```sudo service postgresql start``` to start the server.
+
+## Replace Rails' stylesheets by Le Wagon's stylesheets
+
+Go at the root of the rails project:<br/>
+```cd```<br/>
+```cd code/github_username/rails-project```<br/>
+e.g: ```cd code/barangerbenjamin/rails-mister-cocktail```<br/>
+
+Remove the current stylesheets folder:<br/>
+```rm -rf app/assets/stylesheets```<br/>
+
+Download Le Wagon custom stylesheets:<br/>
+```curl -L https://github.com/lewagon/rails-stylesheets/archive/master.zip > stylesheets.zip```<br/>
+
+Unzip the archive to the app/assets folder:<br/>
+```unzip stylesheets.zip -d app/assets && rm -f stylesheets.zip && rm -f app/assets/rails-stylesheets-master/README.md```<br/>
+
+Create a new directory stylesheets:<br/>
+```mkdir app/assets/stylesheets```<br/>
+
+Move the download custom stylesheets in the our new folder:<br/>
+```mv rails-stylesheets-master/* app/assets/stylesheets```<br/>
+
+Check if everything is correct:<br/>
+```ls app/assets/stylesheets```<br/>
+It should contain 4 folders `components`, `config`, `layouts` and `pages`
+And 1 file `application.scss`
+
