@@ -88,3 +88,14 @@ Check if everything is correct:<br/>
 It should contain 4 folders `components`, `config`, `layouts` and `pages`<br/>
 And 1 file `application.scss`
 
+
+## Yarn doesn't install
+
+Error look like this when trying to do `sudo apt-get install yarn` ?<br/>
+`E: Repository ‘http://dl.google.com/linux/chrome-remote-desktop/deb stable Release’ changed its ‘Origin’ value from ‘Google, Inc.’ to ‘Google LLC’ N: This must be accepted explicitly before updates for this repository can be applied. See apt-secure(8) manpage for details.`<br/>
+
+Easy fix:<br/>
+`sudo apt update`<br/>
+
+Install yarn:<br/>
+`sudo apt-get-install yarn`<br/>
