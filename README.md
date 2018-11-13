@@ -2,7 +2,7 @@
 
 Small wiki about known issues on WSL and how to fix them.
 
-## Access Windows files frogm the WSL terminal
+## Access Windows files from the WSL terminal
 
 It is possible to access Windows files from the terminal.
 All Windows files are located on<br/>```/mnt/#{letter_of_the_drive}```<br/>
