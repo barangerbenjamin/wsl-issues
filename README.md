@@ -81,7 +81,7 @@ Create a new directory stylesheets:<br/>
 ```mkdir app/assets/stylesheets```<br/>
 
 Move the download custom stylesheets in the our new folder:<br/>
-```mv rails-stylesheets-master/* app/assets/stylesheets```<br/>
+```mv app/assets/rails-stylesheets-master/* app/assets/stylesheets```<br/>
 
 Check if everything is correct:<br/>
 ```ls app/assets/stylesheets```<br/>
