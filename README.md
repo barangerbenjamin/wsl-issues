@@ -10,7 +10,11 @@ On a default Windows configuration, it'll be ```/mnt/c```
 
 _Case_: I download an image in my Windows download folder and want to use it in WSL.
 I can access it on<br/>```/mnt/c/Users/barangerbenjamin/downloads/image.png```<br/>
-Where *barangerbenjamin* is my username on Windows
+Where *barangerbenjamin* is my username on Windows  
+
+To add this image to your project:  
+```bash
+cp -p /mnt/c/Users/windows_username/downloads/image.png path_to_project_folder/images``` 
 
 ### My Windows file doesn't appear in Sublime
 
