@@ -14,7 +14,8 @@ Where *barangerbenjamin* is my username on Windows
 
 To add this image to your project:  
 ```bash
-cp -p /mnt/c/Users/windows_username/downloads/image.png path_to_project_folder/images``` 
+cp -p /mnt/c/Users/windows_username/downloads/image.png path_to_project_folder/images 
+``` 
 
 ### My Windows file doesn't appear in Sublime
 
