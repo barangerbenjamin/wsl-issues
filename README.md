@@ -73,28 +73,12 @@ Go at the root of the rails project:<br/>
 ```cd code/github_username/rails-project```<br/>
 e.g: ```cd code/barangerbenjamin/rails-mister-cocktail```<br/>
 
-Remove the current stylesheets folder:<br/>
-```rm -rf app/assets/stylesheets```<br/>
+Run the following commands:<br/>
+```curl -L https://raw.githubusercontent.com/barangerbenjamin/wsl-issues/master/install.sh > replace_stylesheets.sh```<br/>
+```chmod +x replace_stylesheets.sh```<br/>
+```zsh replace_stylesheets.sh```<br/>
 
-Download Le Wagon custom stylesheets:<br/>
-```curl -L https://github.com/lewagon/rails-stylesheets/archive/master.zip > stylesheets.zip```<br/>
-
-Unzip the archive to the app/assets folder:<br/>
-```unzip stylesheets.zip -d app/assets && rm -f stylesheets.zip && rm -f app/assets/rails-stylesheets-master/README.md```<br/>
-
-Create a new directory stylesheets:<br/>
-```mkdir app/assets/stylesheets```<br/>
-
-Move the download custom stylesheets in the our new folder:<br/>
-```mv app/assets/rails-stylesheets-master/* app/assets/stylesheets```<br/>
-
-Check if everything is correct:<br/>
-```ls app/assets/stylesheets```<br/>
-It should contain 4 folders `components`, `config`, `layouts` and `pages`<br/>
-And 1 file `application.scss`<br/>
-
-If everything is correct, you can run:<br/>
-`rm -rf app/assets/rails-stylesheets-master`
+It's done!
 
 
 ## Yarn doesn't install
